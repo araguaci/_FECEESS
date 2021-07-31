@@ -370,16 +370,16 @@ Image credits: unsplash.com
  background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-	background-image: url(../img/prismbg2.png);
+	background-image: url(../img/fundoaces.jpg);
 }
 .fade-carousel .slides .slide-2 {
 	background-image: url(../img/metas.jpg);
 }
 .fade-carousel .slides .slide-3 {
-	background-image: url(../img/fundoaces.jpg);
+	background-image: url(../img/Education%20Wall%20paper.jpg);
 }
 .fade-carousel .slides .slide-4 {
-	background-image: url(../img/prismbg2.png);
+	background-image: url(../img/paper.jpg);
 }
 /********************************/
 /*          Media Queries       */

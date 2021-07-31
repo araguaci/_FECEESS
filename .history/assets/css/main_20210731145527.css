@@ -66,7 +66,7 @@ body {
 }
 
 .contents {
-	margin: 77px 10% 0px;
+	margin: 210px 10% 0px;
 	color: #fff
 }
 
@@ -87,7 +87,6 @@ h1.ugly-line {
 
 p {
 	font-size: 18px;
-    margin-bottom: 15px;
 }
 
 li {
@@ -362,8 +361,7 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3,
-.fade-carousel .slides .slide-4 {
+.fade-carousel .slides .slide-3 {
  height: 100vh;
  background-size: cover;
  background-position: center center;
@@ -373,14 +371,12 @@ Image credits: unsplash.com
 	background-image: url(../img/prismbg2.png);
 }
 .fade-carousel .slides .slide-2 {
-	background-image: url(../img/metas.jpg);
+	background-image: url(../img/Paypal%20Hq.jpg);
 }
 .fade-carousel .slides .slide-3 {
-	background-image: url(../img/fundoaces.jpg);
+	background-image: url(../img/Education%20Wall%20paper.jpg);
 }
-.fade-carousel .slides .slide-4 {
-	background-image: url(../img/prismbg2.png);
-}
+
 /********************************/
 /*          Media Queries       */
 /********************************/
@@ -398,7 +394,7 @@ Image credits: unsplash.com
 }
 .main-title {
     position: absolute;
-    margin-top: 0.3em;
+    margin-top: 0.5em;
     padding: 0;
     color: #f9f1e9;
     text-align: center;
@@ -469,8 +465,4 @@ Image credits: unsplash.com
     .main-title > p { font-size: 16px; font-weight: 700; }
     .main-title > img { padding: 0 20%; }
     .main-title > p img { height: 20px; }
-}
-
-.lead {
-    margin-bottom: 40px;
 }
