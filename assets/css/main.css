@@ -71,7 +71,7 @@ body {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 35px;
 	margin: 0px;
 	text-align: center;
   font-family: sans-serif;
@@ -83,6 +83,7 @@ h1.subtitle {
 
 h1.ugly-line {
 	font-size: 18px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -308,7 +309,7 @@ Image credits: unsplash.com
              transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-   font-size: 6em;
+   font-size: 4em;
    /*font-weight: bold;*/
    /*margin: 0;*/
    padding: 0;
@@ -370,16 +371,16 @@ Image credits: unsplash.com
  background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-	background-image: url(../img/prismbg2.png);
+	background-image: url(../img/polygonal-mosaic2.jpg);
 }
 .fade-carousel .slides .slide-2 {
-	background-image: url(../img/metas.jpg);
+	background-image: url(../img/fundoaces.jpg);
 }
 .fade-carousel .slides .slide-3 {
 	background-image: url(../img/fundoaces.jpg);
 }
 .fade-carousel .slides .slide-4 {
-	background-image: url(../img/prismbg2.png);
+	background-image: url(../img/polygonal-mosaic2.jpg);
 }
 /********************************/
 /*          Media Queries       */
@@ -388,7 +389,16 @@ Image credits: unsplash.com
    .hero { width: 980px; }
 }
 @media screen and (max-width: 640px){
-   .hero h1 { font-size: 3em; }
+   .hero h1 { font-size: 2em; }
+   .hero h2 { font-size: 1.2em; }
+   .hero {
+        position: absolute;
+        top: 40%;
+   }
+   .social-block {
+        position: absolute;
+        right: 0em;
+   }
 }
 
 /* afterthought styling */
@@ -409,7 +419,7 @@ Image credits: unsplash.com
 }
 .main-title a { color: rgb(51, 122, 183); }
 .main-title a:hover { color: rgb(52, 73, 94); }
-.main-title > img { width: 6em; }
+.main-title > img { width: 7em; }
 .main-title > p {
     font-family: "Lato", Verdana, Geneva, sans-serif;
     font-size: 20px;
@@ -459,6 +469,15 @@ Image credits: unsplash.com
     color: #222;
 }
 .main-title .thin { font-weight: 200; }
+.main-title > img {
+    width: 6em;
+    margin-bottom: 116px;
+}
+@media screen and (min-width: 768px) {
+    .carousel-indicators {
+        bottom: 44px;
+    }    
+}
 @media only screen and (max-width : 768px) {
     .demo-1 .main-title,
     .demo-3a .main-title,
@@ -466,11 +485,57 @@ Image credits: unsplash.com
         font-size: 3em;
     }
     .demo-2 .main-title { font-size: 4em; }
-    .main-title > p { font-size: 16px; font-weight: 700; }
-    .main-title > img { padding: 0 20%; }
+    .main-title > p { font-size: 16px; font-weight: 700; padding: 0px 0px 178px;}
+    .main-title > img { padding: 0 12%; margin-bottom: 10px; }
     .main-title > p img { height: 20px; }
+
+    .main-title > p { 
+
+        /*    
+        display: none; 
+        */
+    }
+
+    .contents {
+        margin: 70px 4% 0px;
+        text-align: justify;
+    }
+    .mobilebuttom a { 
+        display: flow-root;
+    }
+
+    .carousel-about {
+        margin-bottom: 10px;
+    }
+
+    .navbar-toggle {
+        margin-right: 40px;    
+    }
+
+    .css-141sqqa {
+        position: absolute;
+        z-index: 1001;
+        top: 5px !important;
+        right: 5px !important;
+    }
+    h1 {
+        font-size: 2em;
+    }
 }
 
 .lead {
     margin-bottom: 40px;
+}
+
+.carousel-about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+	h1 {
+		font-size: 20px;
+        padding-top: 4px;
+	} 
 }
