@@ -1,0 +1,36 @@
+
+.carousel_2 {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 633px;
+  width: 600px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.image-container_2 {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_2 {
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.btn_2:hover {
+  opacity: 0.9;
+}
+
+.btn_2:focus {
+  outline: none;
+}
